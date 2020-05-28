@@ -3,7 +3,7 @@ A Text-Based Surival Simulation RPG
 ![](images/MethHead1.png)
 
 
-Ball hard and make as that plata!
+Ball hard and make that plata!
 ![](images/MethHead2.png)
 
 

@@ -7,9 +7,9 @@ Ball hard and make that plata!
 ![](images/MethHead2.png)
 
 
-Navigate a map, and collect cans, break down boxes, even rob gas stations!
+Navigate a map, collect cans, break down boxes, and rob the gas station!
 ![](images/MethHead3.png)
 
 
-Make sure you eat food, smoke meth, and sleep!
+Make sure you eat food, sleep, and smoke meth!
 ![](images/MethHead4.png)

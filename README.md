@@ -6,7 +6,7 @@ Ball hard and make that plata!
 ![](images/MethHead2.png)
 
 
-Navigate a map, collect cans, break down boxes, and rob the gas station!
+Navigate a map, collect cans, break down boxes, and you can even rob the gas station!
 ![](images/MethHead3.png)
 
 

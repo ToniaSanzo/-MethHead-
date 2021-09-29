@@ -99,14 +99,15 @@ int main()
     Actions action(&player,&time, &bank);
     Map mapObj(&time, cLoca);
     Graphics graph;
-    Environment environ(&player, &time, &mapObj, &action, &bank);
+    Environment environment(&player, &time, &mapObj, &action, &bank);
 
-
+    cin.seekg(0, ios::end);
+    cin.clear();
     while(1)
     {
         printf("\n\n");
         graph.printLocation(mapObj.getCurrentLocation());
-        environ.eval();
+        environment.eval();
     }
 
     return 0;

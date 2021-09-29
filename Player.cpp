@@ -6,6 +6,7 @@ using namespace std;
 
 //---------------------------- CONSTRUCTORS------------------------------------------------------------------
 Player::Player(){
+    setMAXSTAT(100);
     setName("Tonia");
 
     setHunger(MAXSTAT);
@@ -15,7 +16,6 @@ Player::Player(){
     setMoney(4500);
     setCans(0);
     setGun(0);
-    setMAXSTAT(100);
 }
 
 
@@ -23,6 +23,7 @@ Player::Player(string tempName){
     // Set the Name
     setName(tempName);
 
+    setMAXSTAT(100);
     setHunger(MAXSTAT);
     setAddiction(MAXSTAT);
     setEnergy(MAXSTAT);
@@ -30,13 +31,13 @@ Player::Player(string tempName){
     setMoney(4500);
     setCans(0);
     setGun(0);
-    setMAXSTAT(100);
 }
 
 
 
 Player::Player(string tempName, int tempHunger, int tempAddiction, int tempEnergy, int tempMeth, int tempMoney, int tempCans, int tempGun, int tempStat){
     // Set the Name
+    setMAXSTAT(tempStat);
     setName(tempName);
 
     setHunger(tempHunger);
@@ -46,7 +47,6 @@ Player::Player(string tempName, int tempHunger, int tempAddiction, int tempEnerg
     setMoney(tempMoney);
     setCans(tempCans);
     setGun(tempGun);
-    setMAXSTAT(tempStat);
 }
 
 //---------------------------------- GETTERS --------------------------------------------------------------------------

@@ -139,7 +139,7 @@ int Bank::enterAmount() {
     while(currChar > 47 && currChar < 58){
         cout << "\r";
         printMoney(returnVal);
-        currChar = getch();
+        currChar = _getch();
 
 
         // If the decimal is between 0 - 9
